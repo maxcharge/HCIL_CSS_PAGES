@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpLC-9wN5SFActaOGPGwOaeXl7Wy8Cdld7DA&usqp=CAU");
+    background-color: #cccccc;
+
+   }
+ 
+.container
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    padding: 1% 
+}
+.item 
+{   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 75%;
+    padding: 3%;
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    
+  }
+
+button {
+    
+    background-color: white;
+    width: 5%;
+    height: 1.5%;
+    font-size: 90%;
+    border-radius: 25%;
+    padding:1.5%;
+    margin:1.5%;
+}
+
+
+
+button:hover{
+    background-color: lightgray;
+}
+
